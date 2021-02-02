@@ -13,10 +13,6 @@ function PostCard({ post: { body, createdAt, id, username, likeCount, commentCou
 
     const { user } = useContext(AuthContext);
 
-    function likePost() {
-        console.log('Like post!!');
-    }
-
     return (
         <Card fluid>
             <Card.Content>
